@@ -1,0 +1,122 @@
+html, body {
+    font-family: Open Sans, sans-serif;
+    min-height: 100%; 
+    margin:0;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.who-am-i {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg-dark {
+    background-color: black;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-gray {
+    color: #c1c1c1;
+}
+
+.my-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mt-2 {
+    margin-top: 1rem;
+}
+
+.ls-4px {
+    letter-spacing: 4px;
+} 
+
+.fs-50px {
+    font-size: 50px;
+}
+
+.fw-500px {
+    font-weight: bold;
+}
+
+.social-medias {
+    display: flex;
+}
+
+.fa {
+    padding: 10px;
+    margin-right: .5rem;
+    font-size: 25px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.7;
+}
+  
+.fa:hover {
+    opacity: 1;
+}
+
+.fa-facebook {
+    border: 1px solid #c1c1c1;;
+    color: white;
+}
+
+.fa-facebook:hover {
+    border-color:#3B5998;
+    background: #3B5998;
+    color: white;
+}
+
+.fa-github {
+    border: 1px solid #c1c1c1;;
+    color: white;
+}
+
+.fa-github:hover {
+    border-color:white;
+    background: white;
+    color: #161b22;
+}
+
+.fa-linkedin {
+    border: 1px solid #c1c1c1;;
+    color: white;
+}
+
+.fa-linkedin:hover {
+    border-color:#0a66c2;
+    background: #0a66c2;
+    color: white;
+}
+
+.fa-skype {
+    border: 1px solid #c1c1c1;;
+    color: white;
+}
+
+.fa-skype:hover {
+    border-color:#00aff0;
+    background:#00aff0;
+    color: white;
+}
+
+.fa-google {
+    border: 1px solid #c1c1c1;;
+    color: white;
+}
+
+.fa-google:hover {
+    border-color:#ea4335;
+    background:#ea4335;
+    color: white;
+}
